@@ -2,7 +2,7 @@
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/c-bata/go-prompt)](https://goreportcard.com/report/github.com/c-bata/go-prompt)
 ![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)
-[![GoDoc](https://godoc.org/github.com/c-bata/go-prompt?status.svg)](https://godoc.org/github.com/c-bata/go-prompt) 
+[![GoDoc](https://godoc.org/github.com/c-bata/go-prompt?status.svg)](https://godoc.org/github.com/c-bata/go-prompt)
 [![Build Status](https://travis-ci.org/c-bata/go-prompt.svg?branch=master)](https://travis-ci.org/c-bata/go-prompt)
 
 A library for building powerful interactive prompts inspired by [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit),
@@ -13,7 +13,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/c-bata/go-prompt"
+	"github.com/mlejva/go-prompt"
 )
 
 func completer(d prompt.Document) []prompt.Suggest {

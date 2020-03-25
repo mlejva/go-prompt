@@ -1,4 +1,4 @@
-module github.com/c-bata/go-prompt
+module github.com/mlejva/go-prompt
 
 require (
 	github.com/mattn/go-colorable v0.0.9
@@ -8,3 +8,5 @@ require (
 	github.com/pkg/term v0.0.0-20180423043932-cda20d4ac917
 	golang.org/x/sys v0.0.0-20180620133508-ad87a3a340fa
 )
+
+go 1.13

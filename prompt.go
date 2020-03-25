@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/c-bata/go-prompt/internal/debug"
+	"github.com/mlejva/go-prompt/internal/debug"
 )
 
 // Executor is called when user input something text.
@@ -121,7 +121,7 @@ func (p *Prompt) feed(b []byte) (shouldExit bool, exec *Exec) {
 
 	switch key {
 	case Enter, ControlJ, ControlM:
-		p.renderer.BreakLine(p.buf)
+		// p.renderer.BreakLine(p.buf)
 
 		exec = &Exec{input: p.buf.Text()}
 		p.buf = NewBuffer()
