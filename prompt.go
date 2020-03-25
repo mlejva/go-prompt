@@ -122,7 +122,6 @@ func (p *Prompt) feed(b []byte) (shouldExit bool, exec *Exec) {
 
 	switch key {
 	case Enter, ControlJ, ControlM:
-		fmt.Println("YOU PRESSED ENTER")
 		// p.renderer.BreakLine(p.buf)
 
 		exec = &Exec{input: p.buf.Text()}
