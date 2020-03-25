@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"os"
 	"time"
+	"fmt"
 
 	"github.com/mlejva/go-prompt/internal/debug"
 )
