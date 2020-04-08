@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"os"
 	"time"
-	"fmt"
 
 	"github.com/mlejva/go-prompt/internal/debug"
 )
@@ -130,7 +129,7 @@ func (p *Prompt) feed(b []byte) (shouldExit bool, exec *Exec) {
 			p.history.Add(exec.input)
 		}
 	case ControlC:
-		p.renderer.BreakLine(p.buf)
+		// p.renderer.BreakLine(p.buf)
 		p.buf = NewBuffer()
 		p.history.Clear()
 	case Up, ControlP:
